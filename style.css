@@ -1,12 +1,17 @@
+body{
+    font-size: 18px;
+    
+}
 .odin{
- color: green;
+ color: blue;
  background: yellow;
  font-size: 24px;
  font-family: 'Times New Roman', Times, serif;
  text-align: center;
 }
+
 img{
-    margin: 5px;
+    margin: 50px;
     height: auto;
     width: 300px;
 }
@@ -16,10 +21,20 @@ h1{
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.redvelvet{
-    color: blue;
+.redvelvet,h1,h4{
+    color: red;
     margin: 5px;
     height:auto;
     width:300px
     
 }
+.origin{
+    background: yellow;
+    color: blue;
+}
+.steps{
+    background: green;
+    color: white;
+}
+
+
