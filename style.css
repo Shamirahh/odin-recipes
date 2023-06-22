@@ -1,31 +1,47 @@
 body{
+    margin-top: 0;
     font-size: 18px;
-    
+    /* display: inline-block; */
 }
 .odin{
  color: blue;
  background: yellow;
  font-size: 24px;
  font-family: 'Times New Roman', Times, serif;
- text-align: center;
+ margin: 30px;
+ /* text-align: center; */
+ /* display: inline-block; */
+}
+.images{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.index{
+    margin: 20px;
+    /* background-color: steelblue; */
 }
 
 img{
-    margin: 50px;
+     margin: 20px;  
     height: auto;
     width: 300px;
+    display: inline-block;
+    /* vertical-align: middle;  */
 }
 h1{
     color:red;
     text-align: center;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0;
 }
 .redvelvet,h1,h4{
     color: red;
     margin: 5px;
     height:auto;
     width:300px
+
     
 }
 .origin{
@@ -35,6 +51,7 @@ h1{
 .steps{
     background: green;
     color: white;
+    display: inline-block;
 }
 
 
